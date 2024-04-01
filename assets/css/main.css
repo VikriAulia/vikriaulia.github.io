@@ -3263,6 +3263,15 @@ input, select, textarea {
 			background-color: #953d75;
 		}
 
+		.wrapper.style4 {
+			background-color: #3399ff;
+		}
+
+		.wrapper.style4-alt {
+			background-color: #0080ff;
+		}
+
+
 		.wrapper.fullscreen {
 			display: -moz-flex;
 			display: -webkit-flex;
