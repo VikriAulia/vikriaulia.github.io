@@ -3993,7 +3993,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 /* Profile Image */
-.container {
+.profile-image-container {
   display: flex;
   justify-content: center; /* Center the image horizontally */
   overflow: hidden; /* Hide overflow */
@@ -4001,7 +4001,7 @@ body.is-preload #sidebar nav ul li {
   width: 100%; /* Ensure the container takes the full width */
 }
 
-.container::before {
+.profile-image-container::before {
   content: ''; /* Required for pseudo-element */
   position: absolute; /* Position the pseudo-element */
   top: 0;
@@ -4017,5 +4017,5 @@ body.is-preload #sidebar nav ul li {
   border-radius: 6%;
   width: 25%; /* Make the image take full width of its container */
   height: auto; /* Maintain aspect ratio */
-  mask-image: linear-gradient(to right, black, transparent); /* Apply linear gradient mask */
+  /* mask-image: linear-gradient(to right, black, transparent); Apply linear gradient mask */
 }
