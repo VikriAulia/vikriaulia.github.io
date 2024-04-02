@@ -2093,7 +2093,7 @@ button:hover:active:after,
 
 .features section {
   padding: 3.5em 3em 1em 7em;
-  width: 50%;
+  width: 100%;
   border-top: solid 1px rgba(255, 255, 255, 0.15);
   position: relative;
 }
@@ -3991,3 +3991,17 @@ body.is-preload #sidebar nav ul li {
   margin-bottom: 10px;
   padding: 0;
 }
+
+/* Profile Image */
+.container {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+}
+
+.profile-image {
+  border-radius: 6%;
+  width: 25%; /* Make the image take full width of its container */
+  height: auto; /* Maintain aspect ratio */
+  mask-image: linear-gradient(to right, transparent, black); /* Apply linear gradient mask */
+}
+
